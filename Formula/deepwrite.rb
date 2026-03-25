@@ -1,25 +1,25 @@
 class Deepwrite < Formula
   desc "A terminal Markdown writing tool with Focus Mode"
   homepage "https://github.com/tomdhyang/deepwrite-tui"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.2.0/deepwrite-aarch64-apple-darwin.tar.xz"
-      sha256 "81ff4bdaf4246da300f1ce20bd41d07ad451c8dcb6606118174f5a069b873075"
+      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.3.0/deepwrite-aarch64-apple-darwin.tar.xz"
+      sha256 "a5b021a2c9e45586df1086c43a2cc4ad6ddb881ef7b58649c8c705bee53c93fa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.2.0/deepwrite-x86_64-apple-darwin.tar.xz"
-      sha256 "26f35d4804c9e4044e13718ac50de1ffcda08579b28089cdcc348d494a4c7bc2"
+      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.3.0/deepwrite-x86_64-apple-darwin.tar.xz"
+      sha256 "99a55a73ef509231e71fcb42f80bdb5acb505b60140db423ee02865d75110717"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.2.0/deepwrite-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "47d90d85f37d66ea6f2b74f022de3afa4ef85b85bca201146fd9bb1604ce6f14"
+      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.3.0/deepwrite-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b9a9734742d80e3d9631a242b3ff6759f04f19d19e2948718c54e0e0355795e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.2.0/deepwrite-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b974776b0f8158b4fd3601599710e94553ff29901449943ac59112ad9df7563c"
+      url "https://github.com/tomdhyang/deepwrite-tui/releases/download/v0.3.0/deepwrite-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a83716a075b0d56d04d9e62f19340746c2be5908f9a3178fbcaa44d5ef94748e"
     end
   end
   license "MIT"
